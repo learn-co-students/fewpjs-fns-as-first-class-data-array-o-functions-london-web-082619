@@ -32,3 +32,13 @@ let routine = [wakeDog,
 function exerciseDog(dogName, dogBreed) {
         return routine.map(f => f(dogName, dogBreed));
 }
+ var result = exerciseDog()
+ console.log(result)
+ 
+ 
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+var i;
+for (i = 0; i < cars.length; i++) {
+     console.log(cars[i])
+   }
+    
