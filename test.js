@@ -12,4 +12,7 @@ let result = () => {
 } 
 )};
 
-result()
+let numbers = [1,2,3,4,5,6,7];
+let result = numbers.map(function(el) { 
+        return el * 2
+});

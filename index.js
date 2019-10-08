@@ -45,8 +45,13 @@ for (i = 0; i < cars.length; i++) {
 let numbers = [1,2,3,4,5,6,7];
 let test = () => {
     numbers.map(function(el) { 
-        // debugger;
+        debugger;
         return el * 2
 } 
 )};
     
+
+let result2 = numbers.map(function(el) {
+        debugger;
+        return el * 2
+});
